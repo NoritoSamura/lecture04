@@ -9,10 +9,8 @@ function succ(a){
 
 function ten(){
   var a = zero();
-  var i = 0;
-  while(i < 10){
+  while(a.legnth < 10){
     a = succ(a);
-    i = i + 1;
   }
   return a;
 }
