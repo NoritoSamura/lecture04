@@ -9,17 +9,10 @@ function succ(a){
 
 function ten(){
   var a = zero();
-  
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-  a = succ(a);
-
+  var i = 0;
+  while(i < 10){
+    a = succ(a);
+    i = i + 1;
+  }
   return a;
 }
